@@ -51,6 +51,10 @@
     background-image: url(../img/learnmore.jpg);
 }
 
+#section2{
+    background-image: url(../img/contactbg.png);
+}
+
 /* footer css for each page*/
 .footer {
     position: absolute;
