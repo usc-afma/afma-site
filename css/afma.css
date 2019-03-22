@@ -1,0 +1,87 @@
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .afma-title-pos {
+        margin-top: -30%;
+    }
+
+}
+ /* Style for our header texts
+ * --------------------------------------- */
+
+
+
+ /* Centered texts in each section
+ * --------------------------------------- */
+ .section{
+     text-align:center;
+ }
+
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+#section0,
+#section1,
+#section2,
+#section3{
+    background-size: cover;
+}
+
+/* Defining each section background and styles
+* --------------------------------------- */
+#section0{
+    background-image: url(../img/bg-masthead.jpg);
+}
+
+#section0 h1{
+    font-size: 5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #9F090C;
+}
+
+#section0 h3{
+    font-size: 2.5em;
+    font-family: arial,helvetica;
+    color: #fff;
+    margin: 0;
+    padding:0;
+}
+
+#section1{
+    background-image: url(../img/learnmore.jpg);
+}
+
+/* footer css for each page*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 20px;
+    line-height: 20px; /* Vertically center the text there */
+    background-color: #000000;
+}
+
+
+/* header css for about page*/
+.aboutheader {
+    margin-top: -10em;
+    margin-bottom: 1.5em;
+}
+
+.aboutheader h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.aboutheader h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.myContent {
+    height: 400px;
+}
+
